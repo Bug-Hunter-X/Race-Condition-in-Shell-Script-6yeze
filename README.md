@@ -1,0 +1,2 @@
+# Race Condition Bug in Bash
+This repository demonstrates a race condition bug in a simple bash script. Two processes concurrently write to files, which can lead to data corruption or incomplete files. The solution involves using proper locking mechanisms to synchronize file access.  This is a common issue in concurrent programming. The bug and the solution are provided in separate shell scripts.
